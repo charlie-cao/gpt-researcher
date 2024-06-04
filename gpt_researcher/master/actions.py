@@ -46,7 +46,7 @@ def get_retriever(retriever):
 
     return retriever
 
-
+# 从这里开始，选择agent
 async def choose_agent(query, cfg, parent_query=None, cost_callback: callable = None):
     """
     Chooses the agent automatically
